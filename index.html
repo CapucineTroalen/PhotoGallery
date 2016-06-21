@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="JS/baguetteBox/baguetteBox.min.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
@@ -12,7 +13,7 @@
 	<div class="wrapper">
 	<header>
 		<form>
-			<input data-toggle="hideseek" placeholder="Search"> <br>
+			<input data-toggle="hideseek" placeholder="Search(16pt)"> <br>
 		</form>
 	</header>
 	<div class="gallery">
@@ -54,4 +55,7 @@
 		</a>
 	</div>
 	</div>
+	<script src="JS/jquery-3.0.0.min.js"> </script>
+	<script src="JS/baguetteBox/baguetteBox.min.js"> </script>
+	<script> baguetteBox.run('.gallery'); </script>
 </body>
