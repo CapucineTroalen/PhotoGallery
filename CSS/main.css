@@ -70,6 +70,7 @@ header form input {
   right: 0;
   top: 0;
 }
+
 .lb-nav a.lb-prev {
   position: fixed;
   left: 0;
@@ -86,6 +87,7 @@ header form input {
 	padding-top: 50px;
 	margin: auto;
 	line-height: 1.5em;
+	font-weight: 400;
 }
 
 .lb-data .lb-number {
@@ -96,10 +98,6 @@ header form input {
 	width: 600px;
 	border: none;
 	border-radius: 0;
-}
-
-.lb-nav {
-	width: 10px;
 }
 
 .lb-outerContainer {
