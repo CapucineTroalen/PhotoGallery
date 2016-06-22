@@ -38,10 +38,7 @@ header form input {
 
 /* Images */
 
-.gallery figure a img {
-	height: 180px;
-	width: 180px;
-	padding: 30px;
+.gallery figure {
 	display: inline;
 }
 
@@ -49,9 +46,20 @@ header form input {
 	text-decoration: none;
 }
 
+.gallery figure a img {
+	height: 180px;
+	width: 180px;
+	padding: 30px;
+	margin: 0;
+}
+
 .gallery figcaption {
 	font-family: "Source Code Pro";
 	display: none;
 }
+
+/* Lightbox */
+
+
 
 
