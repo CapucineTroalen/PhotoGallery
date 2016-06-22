@@ -82,9 +82,28 @@ header form input {
 
 .lb-data .lb-caption {
 	font-family: "Source Code Pro";
-	text-align: center;
+	display: block;
+	padding-top: 50px;
+	margin: auto;
+	line-height: 1.5em;
 }
 
 .lb-data .lb-number {
 	opacity: 0;
 }
+
+.lightbox .lb-image {
+	width: 600px;
+	border: none;
+	border-radius: 0;
+}
+
+.lb-nav {
+	width: 10px;
+}
+
+.lb-outerContainer {
+	width: 600px;
+	border-radius: 0;
+}
+
