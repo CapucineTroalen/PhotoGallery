@@ -38,15 +38,11 @@ header form input {
 
 /* Images */
 
-.gallery figure {
-	display: inline;
-}
-
-.gallery figure a {
+.gallery a {
 	text-decoration: none;
 }
 
-.gallery figure a img {
+.gallery a img {
 	height: 180px;
 	width: 180px;
 	padding: 30px;
@@ -60,6 +56,35 @@ header form input {
 
 /* Lightbox */
 
+.lightboxOverlay {
+	background-color: #2f2e2e;
+	opacity:.95;
+}
 
+.lb-nav a.lb-prev, .lb-nav a.lb-next {
+	opacity: 1;
+}
 
+.lb-nav a.lb-next {
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+.lb-nav a.lb-prev {
+  position: fixed;
+  left: 0;
+  top: 0;
+}
 
+.lb-data .lb-close {
+	display: none;
+}
+
+.lb-data .lb-caption {
+	font-family: "Source Code Pro";
+	text-align: center;
+}
+
+.lb-data .lb-number {
+	opacity: 0;
+}
