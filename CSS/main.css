@@ -45,7 +45,7 @@ header form input {
 .gallery a img {
 	height: 180px;
 	width: 180px;
-	padding: 30px;
+	padding: 15px;
 	margin: 0;
 }
 
@@ -105,3 +105,13 @@ header form input {
 	border-radius: 0;
 }
 
+/* Searchbox */
+
+.list li {
+	text-decoration: none;
+	display: inline;
+}
+
+.list li a p {
+	display : none;
+}
