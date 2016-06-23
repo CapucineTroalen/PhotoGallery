@@ -7,13 +7,14 @@
   <link href="JS/Lightbox2/CSS/lightbox.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <title> Photo Gallery </title>
 </head>
  
 <body>
 	<div class="wrapper">
 	<header>
 		<form>
-			<input data-list=".list" data-toggle="hideseek" placeholder="Search"> <br>
+			<input id="search" data-list=".list" data-toggle="hideseek" placeholder="Search"> <br>
 		</form>
 	</header>
 	<div class="gallery">
@@ -83,15 +84,23 @@
 	</div>
 	<script src="JS/jquery-3.0.0.min.js"> </script>
 	<script src="JS/Lightbox2/js/lightbox.min.js"></script>
-	<script type="text/javascript" src="JS/HideSeek/jquery.hideseek.min.js">
+	<script type="text/javascript" src="JS/HideSeek/jquery.hideseek.min.js"> </script>
 	<script src="JS/main.js"> </script>
 	<script>
 	    lightbox.option({
 			'maxWidth': 600,
 			'disableScrolling': true
-	    })
-		$(document).ready(function() {
-		    $('#search').hideseek();
+	    });
+		
+		$('#search').hideseek({
+		      list:           '.hideseek-data',
+		      nodata:         '',
+		      attribute:      'text',
+		      highlight:      false,
+		      ignore:         '',
+		      navigation:     false,
+		      ignore_accents: false
 		});
+
 	</script>
 </body>
