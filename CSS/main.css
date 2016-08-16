@@ -54,64 +54,13 @@ header form input {
 	display: none;
 }
 
-/* Lightbox */
-
-.lightboxOverlay {
-	background-color: #2f2e2e;
-	opacity:.95;
-}
-
-.lb-nav a.lb-prev, .lb-nav a.lb-next {
-	opacity: 1;
-}
-
-.lb-nav a.lb-next {
-  position: fixed;
-  right: 0;
-  top: 0;
-}
-
-.lb-nav a.lb-prev {
-  position: fixed;
-  left: 0;
-  top: 0;
-}
-
-.lb-data .lb-close {
-	display: none;
-}
-
-.lb-data .lb-caption {
-	font-family: "Source Code Pro";
-	display: block;
-	padding-top: 50px;
-	margin: auto;
-	line-height: 1.5em;
-	font-weight: 400;
-}
-
-.lb-data .lb-number {
-	opacity: 0;
-}
-
-.lightbox .lb-image {
-	width: 600px;
-	border: none;
-	border-radius: 0;
-}
-
-.lb-outerContainer {
-	width: 600px;
-	border-radius: 0;
-}
-
 /* Searchbox */
 
-.list li {
+.gallery ul li {
 	text-decoration: none;
 	display: inline;
 }
 
-.list li a p {
+.gallery ul li a p {
 	display : none;
 }
