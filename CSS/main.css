@@ -54,6 +54,19 @@ header form input {
 	display: none;
 }
 
+/* Baguette Box */
+
+#baguette-img-0, #baguette-img-1, #baguette-img-2, #baguette-img-3, #baguette-img-4, #baguette-img-5, #baguette-img-6, #baguette-img-7, #baguette-img-8, #baguette-img-9, #baguette-img-10, #baguette-img-11 {
+	max-width: 600px;
+	margin: 0 340px;
+}
+
+#baguetteBox-overlay .full-image figcaption {
+	background-color: rgba(0,0,0,0);
+	font-family: "Source Code Pro";
+	bottom: 25px;
+}
+
 /* Searchbox */
 
 .gallery ul li {
